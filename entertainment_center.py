@@ -1,15 +1,8 @@
 #=================================================================
 # Python program: entertainment_center.py
-# - movie_website project 
+# - Main Program entry point for movie_website project
 #=================================================================
-#
-# Change History:
-# ----------------------------------------
-# - 20180312.143000 (Don Coffman):
-#   Create new program
-#   - Revise 'fresh_tomatoes.py' to add 'tool_tip' 'title attributes to movie poster image display in web page
-#
-#=================================================================
+
 import fresh_tomatoes 
 import media
 import time
