@@ -2,13 +2,6 @@
 # Python program: media.py
 # - Classes for movie_website project 
 #=================================================================
-#
-# Change History:
-# ----------------------------------------
-# - 20180312.143000 (Don Coffman):
-#   Create new program
-#
-#=================================================================
 
 import webbrowser
 
