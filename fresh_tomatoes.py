@@ -42,6 +42,9 @@ main_page_head = '''
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
+            transform: scale(1.05);
+            transition-property: transform;
+            transition-duration: 200ms;
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -121,9 +124,10 @@ main_page_content = '''
 
 
 # A single movie entry html template
+# - include storyline 'tooltip' popup data
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
+    <img src="{poster_image_url}" width="220" height="342" title="{storyline}">
     <h2>{movie_title}</h2>
 </div>
 '''
@@ -145,7 +149,8 @@ def create_movie_tiles_content(movies):
         content += movie_tile_content.format(
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
-            trailer_youtube_id=trailer_youtube_id
+            trailer_youtube_id=trailer_youtube_id,
+            storyline=movie.storyline
         )
     return content
 
