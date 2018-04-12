@@ -21,6 +21,7 @@ and passed to the fresh_tomatoes.open_movies_page() function.
 by Udacity - customized for this project ... see below)
 - **fresh_tomatoes.html**: Dynamically-generated HTML file
 - **README.md**: Project README file (GitHub Markdown) 
+- **README.txt**: Project README file (Ascii Text Version) 
 
 
 ## Requirements / Prerequisites:
