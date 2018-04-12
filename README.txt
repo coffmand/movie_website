@@ -40,7 +40,7 @@ website providing the following info on my favorite movies:
   - Execute the following:
     python entertainment_center.py
     -- OR --
-    ./entertainment_center.py (for UNIX/LINUX)
+    ./entertainment_center.py (for UNIX/LINUX)(make sure permissions are set for execute)
   - Web browser will be opened  
 
 - Using local system File Browser Window interface (GUI):  
