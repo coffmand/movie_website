@@ -12,6 +12,15 @@ class Movie():
 
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube):
+        """Constructor initializes data from args.
+
+           Args:
+           - Param1: Movie Title String
+           - Param2: Movie Synopsis Storyline string
+                     - Feeds poster img title attr (hover tooltip popup)
+           - Param3: URL string for Movie Poster Image
+           - Param4: URL string for YouTube trailer
+        """
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
